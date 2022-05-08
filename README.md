@@ -4,3 +4,4 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Movie+Time+Repo!;Created+by+DarkLord!;A+simple+and+a+powerful+Bot!;Start+message+with+pic!;And+More+Awsome+Features!;Don't+Forget+To+Subcribe;Movie+Time;)
 </p>
+<img src="https://img.shields.io/github/stars/MoulikMaity/MovieTime_Robot?style=social" /> <img src="https://img.shields.io/github/forks/MoulikMaity/MovieTime-Robot?style=social" />
