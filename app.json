@@ -10,7 +10,7 @@
       "filter",
       "bot"
     ],
-    "repository": "https://github.com/Tokyo-Boss/LuciferMoringstar-Robot",
+    "repository": "https://github.com/MoulikMaity/Movie-Time-2.0",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
