@@ -1,0 +1,101 @@
+{
+    "name":"Movie Time 2.0",
+    "description": "Super Fast Telegram Auto Filter Bot",
+    "logo": "https://telegra.ph/file/aabbe1b1f267be91206c5.jpg",
+    "stack": "container",
+    "keywords": [
+      "best",
+      "telegarm",
+      "auto",
+      "filter",
+      "bot"
+    ],
+    "repository": "https://github.com/Tokyo-Boss/LuciferMoringstar-Robot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": "Your Bot Token"
+        },
+        "API_ID": {
+            "description": "Get this value from telegram.org",
+            "value": "Your Telegram Api Id"
+        },
+        "API_HASH": {
+            "description": "Get this value from telegram.org",
+            "value": "Your Telegram Api Hash"
+        },
+        "CHANNELS": {
+            "description": "Your Telegram User ID. Separate multiple IDs by space.",
+            "value": "Your Telegram User Id"
+        },
+        "ADMINS": {
+            "description": "Telegram User ID of Admin. Separate multiple Admins by space.",
+            "value": ""
+        },
+        "AUTH_USERS": {
+            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
+            "value": "",
+            "required": false
+        },
+        "FORCES_SUB": {
+            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "Your Telegram Subscribe Channel Id",
+            "required": true
+        },
+        "PICS": {
+            "description": "Add some link of pictures.",
+            "value": "Bot Start Pictures Link",
+            "required": true
+        },
+        "START_MSG": {
+            "description": "Welcome message for start command More Information Check Readme.md",
+            "value": "Your Telegram Bot Start Message",
+            "required": true
+        },
+        "AUTH_GROUPS": {
+            "description": "ID of groups which bot should work as autofilter, bot can only work in thease groups. If not given , bot can be used in any group.",
+            "value": "Your Telegram Group Id",
+            "required": true
+        },
+        "DATABASE_URI": {
+            "description": "Mongodb from Mongodb.com",
+            "value": "Your mongoDB Database Url"
+        },
+        "SPELL_MODE": {
+            "description": "Spelling Mode on or off",
+            "value": "on",
+            "required": true
+        },
+        "SPELL_MODE_TEXT": {
+            "description": "Seplling Mode Text",
+            "value": "Spelling Mode Text",
+            "required": true
+        },
+        "LOG_CHANNEL": {
+            "description": "Log Channel Use Private Channel Id -100××××",
+            "value": "Your Telegram Log Channel Id"
+        },
+        "DEV_NAME": {
+            "description": "Creator Name or Username",
+            "value": "DarkLord",
+            "required": true
+        },
+        "SUPPORT": {
+            "description": "Your Group Link Private or Public Link (with t.me or https://t.me)",
+            "value": "https://t.me/+G-jUAYrcsMw4NTU1",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
