@@ -39,7 +39,7 @@ async def group_filters(client, message):
                     reply_markup=reply_markup                 
                 )
                 await asyncio.sleep(30) 
-                await LuciferMoringstar_delete.delete()
+                await MovieTime_delete.delete()
             return
         if not btn:
             return
