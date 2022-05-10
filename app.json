@@ -14,19 +14,19 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": "Your Bot Token"
+            "value": ""
         },
         "API_ID": {
             "description": "Get this value from telegram.org",
-            "value": "Your Telegram Api Id"
+            "value": ""
         },
         "API_HASH": {
             "description": "Get this value from telegram.org",
-            "value": "Your Telegram Api Hash"
+            "value": ""
         },
         "CHANNELS": {
             "description": "Your Telegram User ID. Separate multiple IDs by space.",
-            "value": "Your Telegram User Id"
+            "value": ""
         },
         "ADMINS": {
             "description": "Telegram User ID of Admin. Separate multiple Admins by space.",
@@ -39,27 +39,27 @@
         },
         "FORCES_SUB": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "Your Telegram Subscribe Channel Id",
+            "value": "",
             "required": true
         },
         "PICS": {
             "description": "Add some link of pictures.",
-            "value": "Bot Start Pictures Link",
+            "value": "",
             "required": true
         },
         "START_MSG": {
             "description": "Welcome message for start command More Information Check Readme.md",
-            "value": "Your Telegram Bot Start Message",
+            "value": "",
             "required": true
         },
         "AUTH_GROUPS": {
             "description": "ID of groups which bot should work as autofilter, bot can only work in thease groups. If not given , bot can be used in any group.",
-            "value": "Your Telegram Group Id",
+            "value": "",
             "required": true
         },
         "DATABASE_URI": {
             "description": "Mongodb from Mongodb.com",
-            "value": "Your mongoDB Database Url"
+            "value": ""
         },
         "SPELL_MODE": {
             "description": "Spelling Mode on or off",
@@ -68,12 +68,12 @@
         },
         "SPELL_MODE_TEXT": {
             "description": "Seplling Mode Text",
-            "value": "Spelling Mode Text",
+            "value": "",
             "required": true
         },
         "LOG_CHANNEL": {
             "description": "Log Channel Use Private Channel Id -100××××",
-            "value": "Your Telegram Log Channel Id"
+            "value": ""
         },
         "DEV_NAME": {
             "description": "Creator Name or Username",
