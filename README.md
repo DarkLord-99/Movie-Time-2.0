@@ -6,8 +6,3 @@
 </p>
 
 <img src="https://img.shields.io/github/stars/MoulikMaity/Movie-Time-2.0?style=social" /> <img src="https://img.shields.io/github/forks/MoulikMaity/Movie-Time-2.0?style=social" /> 
-
-<!-- AnjanModak -->
-<a href="#" target="_blank">
-  <img src="svg/anjanmodak.svg" width="1200" alt="anjanmodak-official" />
-</a>
